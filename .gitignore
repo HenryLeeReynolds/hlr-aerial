@@ -1,0 +1,8 @@
+# Local reference docs (not for git)
+drone-docs/
+
+# Claude Code context (local only)
+CLAUDE.md
+
+# Windows artifacts
+nul
