@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HLR Aerial | Professional Drone Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">HLR <span>AERIAL</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <!-- Replace src with your showreel video file -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>HLR AERIAL</h1>
+      <p class="tagline">Professional Drone Photography &amp; Videography</p>
+      <a href="#portfolio" class="btn-primary">View Our Work</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Us</h2>
+        <div class="accent-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">We capture stunning aerial perspectives that elevate your project.</p>
+          <p>HLR Aerial provides professional drone photography and videography services for real estate, events, inspections, mapping, and more. We combine cutting-edge drone technology with a cinematic eye to deliver visuals that stand out.</p>
+          <p>Whether you need breathtaking property shots, dynamic event coverage, or detailed aerial surveys, we bring a fresh perspective from above.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-icon">&#9651;</span>
+            <h3>FAA Certified</h3>
+            <p>Part 107 Licensed Pilot</p>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">&#9711;</span>
+            <h3>4K Ultra HD</h3>
+            <p>Cinema-quality footage</p>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">&#9633;</span>
+            <h3>Fast Delivery</h3>
+            <p>Quick turnaround times</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2>Portfolio</h2>
+        <div class="accent-line"></div>
+        <p class="section-sub">A selection of our recent work</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="landscape">Landscape</button>
+      </div>
+
+      <!-- Portfolio Grid — replace placeholder images with your own -->
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="real-estate">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-1.jpg" alt="Aerial view of residential property">
+            <div class="portfolio-overlay">
+              <h3>Residential Property</h3>
+              <p>Real Estate</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="landscape">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-2.jpg" alt="Landscape aerial shot">
+            <div class="portfolio-overlay">
+              <h3>Mountain Vista</h3>
+              <p>Landscape</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="events">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-3.jpg" alt="Event aerial coverage">
+            <div class="portfolio-overlay">
+              <h3>Outdoor Event</h3>
+              <p>Events</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="real-estate">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-4.jpg" alt="Commercial property aerial">
+            <div class="portfolio-overlay">
+              <h3>Commercial Complex</h3>
+              <p>Real Estate</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="landscape">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-5.jpg" alt="Coastal aerial view">
+            <div class="portfolio-overlay">
+              <h3>Coastal Flyover</h3>
+              <p>Landscape</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="events">
+          <div class="portfolio-thumb">
+            <img src="assets/portfolio-6.jpg" alt="Sports event aerial">
+            <div class="portfolio-overlay">
+              <h3>Sports Coverage</h3>
+              <p>Events</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Services</h2>
+        <div class="accent-line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#8962;</div>
+          <h3>Real Estate</h3>
+          <p>Stunning aerial photos and videos that showcase properties from every angle. Help listings stand out and sell faster.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9881;</div>
+          <h3>Inspections</h3>
+          <p>Safe, efficient aerial inspections for roofs, towers, solar panels, and infrastructure. Detailed imagery without the risk.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9670;</div>
+          <h3>Events</h3>
+          <p>Dynamic aerial coverage for weddings, sports events, festivals, and gatherings. Capture the full scale of your event.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9041;</div>
+          <h3>Mapping &amp; Surveys</h3>
+          <p>Precision aerial mapping, orthomosaics, and 3D models for construction, agriculture, and land management.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9655;</div>
+          <h3>Video Production</h3>
+          <p>Cinematic drone footage for commercials, social media, documentaries, and brand content that demands attention.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#10697;</div>
+          <h3>Custom Projects</h3>
+          <p>Have something unique in mind? We work with you to design a custom aerial solution tailored to your needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="accent-line"></div>
+        <p class="section-sub">Ready to elevate your project? Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <select id="service" name="service">
+              <option value="" disabled selected>Select a Service</option>
+              <option value="real-estate">Real Estate</option>
+              <option value="inspections">Inspections</option>
+              <option value="events">Events</option>
+              <option value="mapping">Mapping &amp; Surveys</option>
+              <option value="video">Video Production</option>
+              <option value="other">Custom / Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <!-- Replace with your actual email -->
+            <a href="mailto:contact@hlraerial.com">contact@hlraerial.com</a>
+          </div>
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <!-- Replace with your actual phone -->
+            <a href="tel:+15551234567">(555) 123-4567</a>
+          </div>
+          <div class="contact-item">
+            <h3>Location</h3>
+            <p>Available for local and travel bookings</p>
+          </div>
+          <div class="contact-socials">
+            <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+            <a href="#" aria-label="YouTube" class="social-link">YouTube</a>
+            <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 HLR Aerial. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
